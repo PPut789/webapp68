@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex02</title>
+    <style>
+        img{
+            width: 150px;
+        }
+        .container{
+            width: 150px;
+            position: relative; /* สามารถปรับแต่งได้่ว่าจะอยู่ตรงไหน */ 
+        }
+        .overlay{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.2);
+            color: white;
+            text-align: center;
+            font-size: 25px;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div style="border: 1px; border-style: solid; height: 225px; ">
+        <div class="container">
+            <h3>Preview:</h3>
+            <img src="dokmai.png" alt="">
+            <div class="overlay">
+                Dok,Mai
+            </div>
+        </div>
+    </div>
+</body>
+</html>
